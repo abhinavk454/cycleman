@@ -1,4 +1,5 @@
 from rest_framework import generics
+
 from .models import Cycle
 from .serializers import CycleSerializer
 
