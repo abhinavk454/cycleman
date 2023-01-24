@@ -4,12 +4,14 @@ from .serializers import CycleSerializer
 
 
 class AllCycleView(generics.ListCreateAPIView):
-    '''All Endpoint'''
+    """All Endpoint"""
+
     queryset = Cycle.objects.all()
     serializer_class = CycleSerializer
 
 
 class SingleCycleView(generics.RetrieveUpdateDestroyAPIView):
-    '''Solo Endpoint'''
+    """Solo Endpoint"""
+
     queryset = Cycle.objects.all()
     serializer_class = CycleSerializer
