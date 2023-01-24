@@ -1,10 +1,6 @@
 from django.db import models
 
-# Create your models here.
-
-"""
-Cycle Model
-"""
+'''Cycle Model'''
 
 
 class Cycle(models.Model):
